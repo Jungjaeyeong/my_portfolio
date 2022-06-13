@@ -1,5 +1,11 @@
+import About from './About'
+
 function HomePage() {
-	return <div>HomePage</div>
+	return (
+		<div>
+			<About />
+		</div>
+	)
 }
 
 export default HomePage

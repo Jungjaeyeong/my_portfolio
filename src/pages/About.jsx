@@ -16,14 +16,16 @@ const About = () => {
 					앞으로도 항상 배우려는 자세로 꾸준히 성장하는 개발자가 되겠습니다.
 				</span>
 			</div>
-			<h2 className="title">skills</h2>
 			<div className="skill">
-				{aboutSkills.map(({ name, Icon }) => (
-					<div key={name} className="skill__box">
-						<Icon className="skill__box-img" />
-						<span>{name}</span>
-					</div>
-				))}
+				<h2 className="skill__title">Skills</h2>
+				<div className="skill__box">
+					{aboutSkills.map(({ name, Icon }) => (
+						<div key={name} className="skill__box-item">
+							<Icon className="skill__box-img" />
+							<span>{name}</span>
+						</div>
+					))}
+				</div>
 			</div>
 		</AboutContainer>
 	)

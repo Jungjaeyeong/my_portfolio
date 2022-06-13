@@ -8,6 +8,7 @@ import {
 	AppProject,
 	AppMenus,
 	AppDescript,
+	AppContent,
 	GithubIcon
 } from './AppLayout.styled'
 
@@ -52,7 +53,7 @@ const AppLayout = ({ children }) => {
 					<span>010-3369-8037</span>
 				</AppDescript>
 			</AppAside>
-			{children}
+			<AppContent>{children}</AppContent>
 		</AppContainer>
 	)
 }

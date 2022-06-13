@@ -4,35 +4,49 @@ export const AboutContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
+	padding: 50px;
 
 	.intro {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
 		font-size: ${({ theme }) => theme.fontSizes.lg};
-
 		&__title {
 			font-size: ${({ theme }) => theme.fontSizes.big};
-			font-weight: 600;
+			font-weight: 500;
 		}
 	}
 
 	.skill {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-		gap: 5px;
+		display: flex;
+		flex-direction: column;
+		gap: 50px;
+
+		&__title {
+			font-size: ${({ theme }) => theme.fontSizes.xxxl};
+			font-weight: 500;
+		}
 
 		&__box {
-			display: flex;
-			flex-direction: column;
-			align-items: center;
-			justify-content: center;
-			gap: 10px;
-			border: 1px solid ${({ theme }) => theme.colors.lineColor};
-			border-radius: 5px;
-			transition: 300ms;
-			cursor: default;
-			padding: 20px 0;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5px;
 
-			&:hover {
-				border: 1px solid ${({ theme }) => theme.colors.primary};
+			&-item {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+				gap: 10px;
+				border: 1px solid ${({ theme }) => theme.colors.lineColor};
+				border-radius: 5px;
+				transition: 300ms;
+				cursor: default;
+				padding: 20px 0;
+
+				&:hover {
+					border: 1px solid ${({ theme }) => theme.colors.primary};
+				}
 			}
 
 			&-img {

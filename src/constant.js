@@ -24,5 +24,17 @@ export const aboutSkills = [
 ]
 
 export const projectItem = [
-	{ id: 1, title: '스터디 매칭 플랫폼 이츠', img: '/images/it.png' }
+	{
+		id: 1,
+		title: '이츠 (팀 프로젝트)',
+		img: '/images/its.png',
+		content: '이츠는 스터디 & 프로젝트 매칭 플랫폼입니다.',
+		info: '첫 번째 팀 프로젝트이며 Front-end를 맡아서 진행했습니다.'
+	},
+	{
+		id: 2,
+		title: '포트폴리오 웹 (개인 프로젝트)',
+		img: '/images/portfolio.png',
+		content: 'React 기반으로 만든 개인 포트폴리오 웹입니다.'
+	}
 ]

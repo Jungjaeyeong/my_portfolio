@@ -101,3 +101,11 @@ export const GithubIcon = styled(ReactComponent)`
 		transition: 200ms;
 	}
 `
+
+export const AppContent = styled.div`
+	width: 73%;
+	background-color: ${({ theme }) => theme.colors.white};
+	border: 1px solid ${({ theme }) => theme.colors.lineColor};
+	border-radius: 5px;
+	height: 100%;
+`
