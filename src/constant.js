@@ -1,9 +1,9 @@
 import { ReactComponent as HtmlIcon } from './assets/svg/html.svg'
-
+// import { ReactComponent as JavascriptIcon } from './assets/svg/JavaScript.svg'
 import { ReactComponent as MongodbIcon } from './assets/svg/mongodb.svg'
 import { ReactComponent as MysqlIcon } from './assets/svg/mysql.svg'
 import { ReactComponent as NextjsIcon } from './assets/svg/nextjs.svg'
-import { ReactComponent as NodejsIcon } from './assets/svg/nodejs.svg'
+// import { ReactComponent as NodejsIcon } from './assets/svg/nodejs.svg'
 import { ReactComponent as ReactIcon } from './assets/svg/react.svg'
 import { ReactComponent as TypescriptIcon } from './assets/svg/typescript.svg'
 
@@ -14,11 +14,11 @@ export const navMenus = [
 
 export const aboutSkills = [
 	{ name: 'HTML', Icon: HtmlIcon },
-
+	// { name: 'Javascript', Icon: JavascriptIcon },
 	{ name: 'Typescript', Icon: TypescriptIcon },
 	{ name: 'React', Icon: ReactIcon },
 	{ name: 'Nextjs', Icon: NextjsIcon },
-	{ name: 'Nodejs', Icon: NodejsIcon },
+	// { name: 'Nodejs', Icon: NodejsIcon },
 	{ name: 'Mysql', Icon: MysqlIcon },
 	{ name: 'Mongodb', Icon: MongodbIcon }
 ]
