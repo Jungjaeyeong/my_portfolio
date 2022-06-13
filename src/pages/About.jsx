@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { aboutSkill } from '@/constant'
+import { aboutSkills } from '@/constant'
 import { AboutContainer } from './About.styled'
 
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
 			</div>
 			<h2 className="title">skills</h2>
 			<div className="skill">
-				{aboutSkill.map(({ name, Icon }) => (
+				{aboutSkills.map(({ name, Icon }) => (
 					<div key={name} className="skill__box">
 						<Icon className="skill__box-img" />
 						<span>{name}</span>
