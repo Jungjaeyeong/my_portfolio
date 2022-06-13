@@ -1,10 +1,10 @@
-import { ReactComponent as HtmlIcon } from '@/assets/svg/html.svg'
-import { ReactComponent as JavascriptIcon } from '@/assets/svg/javascript.svg'
-import { ReactComponent as MongodbIcon } from '@/assets/svg/mongodb.svg'
-import { ReactComponent as MysqlIcon } from '@/assets/svg/mysql.svg'
-import { ReactComponent as NextjsIcon } from '@/assets/svg/nextjs.svg'
-import { ReactComponent as NodejsIcon } from '@/assets/svg/nodejs.svg'
-import { ReactComponent as ReactIcon } from '@/assets/svg/react.svg'
+import { ReactComponent as HtmlIcon } from './assets/svg/html.svg'
+import { ReactComponent as JavascriptIcon } from './assets/svg/javascript.svg'
+import { ReactComponent as MongodbIcon } from './assets/svg/mongodb.svg'
+import { ReactComponent as MysqlIcon } from './assets/svg/mysql.svg'
+import { ReactComponent as NextjsIcon } from './assets/svg/nextjs.svg'
+import { ReactComponent as NodejsIcon } from './assets/svg/nodejs.svg'
+import { ReactComponent as ReactIcon } from './assets/svg/react.svg'
 import { ReactComponent as TypescriptIcon } from './assets/svg/typescript.svg'
 
 export const navMenus = [
