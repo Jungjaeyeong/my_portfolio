@@ -1,5 +1,5 @@
 import { ReactComponent as HtmlIcon } from './assets/svg/html.svg'
-import { ReactComponent as JavascriptIcon } from './assets/svg/javascript.svg'
+import { ReactComponent as JavascriptIcon } from './assets/svg/JavaScript.svg'
 import { ReactComponent as MongodbIcon } from './assets/svg/mongodb.svg'
 import { ReactComponent as MysqlIcon } from './assets/svg/mysql.svg'
 import { ReactComponent as NextjsIcon } from './assets/svg/nextjs.svg'
