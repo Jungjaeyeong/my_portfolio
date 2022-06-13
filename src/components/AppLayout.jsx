@@ -1,6 +1,6 @@
 import { useLocation, useNavigate } from 'react-router-dom'
 
-import { navMenus } from '@/constant'
+import { navMenus } from '../constant'
 import {
 	AppContainer,
 	AppAside,

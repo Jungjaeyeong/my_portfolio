@@ -1,4 +1,3 @@
-import React from 'react'
 import { ProfileContainer } from './Profile.styled'
 
 const Profile = () => {

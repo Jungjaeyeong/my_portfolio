@@ -2,8 +2,8 @@ import { Suspense } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import styled, { ThemeProvider } from 'styled-components'
 
-import AppLayout from '@/components/AppLayout'
-// import GlobalStyled from './styles/Globalstyled'
+import AppLayout from './components/AppLayout'
+import GlobalStyled from './styles/Globalstyled'
 import theme from './styles/theme'
 import RouterConfig from './router'
 

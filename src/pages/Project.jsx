@@ -1,7 +1,8 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+
+import { projectItem } from '../constant'
 import { ProjectContainer } from './Project.styled'
-import { projectItem } from '@/constant'
 
 const Project = () => {
 	const [clicked, setClicked] = useState(false)

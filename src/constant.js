@@ -5,7 +5,7 @@ import { ReactComponent as MysqlIcon } from '@/assets/svg/mysql.svg'
 import { ReactComponent as NextjsIcon } from '@/assets/svg/nextjs.svg'
 import { ReactComponent as NodejsIcon } from '@/assets/svg/nodejs.svg'
 import { ReactComponent as ReactIcon } from '@/assets/svg/react.svg'
-import { ReactComponent as TypescriptIcon } from '@/assets/svg/typescript.svg'
+import { ReactComponent as TypescriptIcon } from './assets/svg/typescript.svg'
 
 export const navMenus = [
 	{ name: 'About Me', to: '/' },

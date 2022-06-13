@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { ReactComponent } from '@/assets/svg/github.svg'
+import { ReactComponent } from '../assets/svg/github.svg'
 
 export const AppContainer = styled.div`
 	width: 1364px;
