@@ -14,7 +14,6 @@ const App = () => {
 					<Suspense fallback={<span>...loading</span>}>
 						<RouterConfig />
 					</Suspense>
-					<span>test</span>
 				</ThemeProvider>
 			</BrowserRouter>
 		</>

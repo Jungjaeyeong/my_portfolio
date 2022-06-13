@@ -1,6 +1,6 @@
 import React, { Suspense } from 'react'
 
-import Profile from '../Component/Profile'
+import Profile from '../components/Profile'
 
 import { HomePageContainer } from './HomePage.styled'
 import { portfolioNav } from '../constant/data'
@@ -8,6 +8,7 @@ import RouterConfig from '../router'
 
 import { Link } from 'react-router-dom'
 import About from './About'
+import Project from './Project'
 
 const HomePage = () => {
 	return (
@@ -23,7 +24,7 @@ const HomePage = () => {
 						</Link>
 					))}
 				</div>
-				<RouterConfig />
+				<Project />
 			</div>
 		</HomePageContainer>
 	)
