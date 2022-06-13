@@ -32,11 +32,12 @@ const device = {
 
 const colors = {
 	primary: '#6C5CE7',
-	gray_77: '#777',
-	gray_f1: '#F1F3F7',
+	gray_22: '#222222',
 	gray_33: '#333333',
 	gray_55: '#555555',
 	gray_70: '#707070',
+	gray_77: '#777777',
+	gray_f1: '#F1F3F7',
 	gray_ea: '#eaeaea',
 	gray_aa: '#aaaaaa',
 	gray_dd: '#dddddd',
@@ -44,9 +45,8 @@ const colors = {
 	gray_eb: '#ebebeb',
 	bgColor: '#F8F9FD',
 	lineColor: '#F1F3F7',
-	white_ff: '#fff',
-	black_22: '#222',
-	red_74: '#e74c3c'
+	white: '#fff',
+	red: '#e74c3c'
 }
 
 const theme = {

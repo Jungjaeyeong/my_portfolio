@@ -1,22 +1,36 @@
 import { Suspense } from 'react'
 import { BrowserRouter } from 'react-router-dom'
-import { ThemeProvider } from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
+
+import AppLayout from '@/components/AppLayout'
+import GlobalStyle from '@/styles/Globalstyled'
+import theme from '@/styles/theme'
 import RouterConfig from './router'
-import theme from './styles/theme'
-import GlobalStyle from './styles/Globalstyled'
+
+const Container = styled.div`
+	height: 100vh;
+	display: flex;
+	align-items: center;
+
+	@media ${({ theme }) => theme.device.tablet} {
+		height: auto;
+	}
+`
 
 const App = () => {
 	return (
-		<>
-			<BrowserRouter>
-				<ThemeProvider theme={theme}>
-					<GlobalStyle />
-					<Suspense fallback={<span>...loading</span>}>
-						<RouterConfig />
-					</Suspense>
-				</ThemeProvider>
-			</BrowserRouter>
-		</>
+		<BrowserRouter>
+			<ThemeProvider theme={theme}>
+				<GlobalStyle />
+				<Container>
+					<AppLayout>
+						<Suspense fallback={<span>…loading</span>}>
+							<RouterConfig />
+						</Suspense>
+					</AppLayout>
+				</Container>
+			</ThemeProvider>
+		</BrowserRouter>
 	)
 }
 

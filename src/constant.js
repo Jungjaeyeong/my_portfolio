@@ -7,22 +7,12 @@ import { ReactComponent as NodejsIcon } from '@/assets/svg/nodejs.svg'
 import { ReactComponent as ReactIcon } from '@/assets/svg/react.svg'
 import { ReactComponent as TypescriptIcon } from '@/assets/svg/typescript.svg'
 
-export const portfolioNav = [
-	{
-		id: 1,
-		name: 'About',
-		to: '/about',
-		info: 'home'
-	},
-	{
-		id: 2,
-		name: 'Project',
-		to: '/project',
-		info: 'project'
-	}
+export const navMenus = [
+	{ name: 'About Me', to: '/' },
+	{ name: 'Projects', to: '/project' }
 ]
 
-export const aboutSkill = [
+export const aboutSkills = [
 	{ name: 'HTML', Icon: HtmlIcon },
 	{ name: 'Javascript', Icon: JavascriptIcon },
 	{ name: 'Typescript', Icon: TypescriptIcon },

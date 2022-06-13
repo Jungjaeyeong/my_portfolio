@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { aboutSkill } from '@/constant/data'
+import { aboutSkill } from '@/constant'
 import { AboutContainer } from './About.styled'
 
 const About = () => {

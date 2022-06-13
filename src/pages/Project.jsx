@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { ProjectContainer } from './Project.styled'
-import { projectItem } from '@/constant/data'
+import { projectItem } from '@/constant'
 
 const Project = () => {
 	const [clicked, setClicked] = useState(false)
@@ -11,13 +11,13 @@ const Project = () => {
 			<h2 className="title">Project</h2>
 
 			{projectItem.map(item => (
-				<div key={item.id} className="project">
+				<div onClick={toggle} key={item.id} className="project">
 					<img src={item.img} />
 					<span>{item.title}</span>
 				</div>
 			))}
 
-			{clicked ? <motion div className="overlay"></motion> : null}
+			{clicked ? <div className="overlay"></div> : null}
 		</ProjectContainer>
 	)
 }
