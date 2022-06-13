@@ -1,30 +1,30 @@
-import { createGlobalStyle, css } from 'styled-components'
+// import { createGlobalStyle, css } from 'styled-components'
 
-const globalStyled = css`
-	* {
-		box-sizing: border-box;
-	}
+// const globalStyled = css`
+// 	* {
+// 		box-sizing: border-box;
+// 	}
 
-	body {
-		background-color: #f8f9fd;
-		line-height: 1.4;
-		font-family: Noto Sans, Noto Sans KR;
-		color: #333;
+// 	body {
+// 		background-color: #f8f9fd;
+// 		line-height: 1.4;
+// 		font-family: Noto Sans, Noto Sans KR;
+// 		color: #333;
 
-		textarea {
-			resize: none;
-		}
-	}
+// 		textarea {
+// 			resize: none;
+// 		}
+// 	}
 
-	button {
-		text-decoration: none;
-		border: 0;
-		cursor: pointer;
-	}
-`
+// 	button {
+// 		text-decoration: none;
+// 		border: 0;
+// 		cursor: pointer;
+// 	}
+// `
 
-const GlobalStyled = createGlobalStyle`
-  ${globalStyled}
-`
+// const GlobalStyled = createGlobalStyle`
+//   ${globalStyled}
+// `
 
-export default GlobalStyled
+// export default GlobalStyled
