@@ -2,9 +2,9 @@ import { Suspense } from 'react'
 import { BrowserRouter } from 'react-router-dom'
 import styled, { ThemeProvider } from 'styled-components'
 
-import AppLayout from './components/AppLayout'
 import GlobalStyled from './styles/Globalstyled'
 import theme from './styles/theme'
+import AppLayout from './components/AppLayout'
 import RouterConfig from './router'
 
 const Container = styled.div`
@@ -21,7 +21,7 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<ThemeProvider theme={theme}>
-				{/* <GlobalStyled /> */}
+				<GlobalStyled />
 				<Container>
 					<AppLayout>
 						<Suspense fallback={<span>…loading</span>}>
