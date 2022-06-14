@@ -13,14 +13,14 @@ export const navMenus = [
 ]
 
 export const aboutSkills = [
-	{ name: 'HTML', Icon: HtmlIcon },
-	{ name: 'Javascript', Icon: JavascriptIcon },
-	{ name: 'Typescript', Icon: TypescriptIcon },
-	{ name: 'React', Icon: ReactIcon },
-	{ name: 'Nextjs', Icon: NextjsIcon },
-	{ name: 'Nodejs', Icon: NodejsIcon },
-	{ name: 'Mysql', Icon: MysqlIcon },
-	{ name: 'Mongodb', Icon: MongodbIcon }
+	{ id: 1, name: 'HTML', Icon: HtmlIcon },
+	{ id: 2, name: 'Javascript', Icon: JavascriptIcon },
+	{ id: 3, name: 'Typescript', Icon: TypescriptIcon },
+	{ id: 4, name: 'React', Icon: ReactIcon },
+	{ id: 5, name: 'Nextjs', Icon: NextjsIcon },
+	{ id: 6, name: 'Nodejs', Icon: NodejsIcon },
+	{ id: 7, name: 'Mysql', Icon: MysqlIcon },
+	{ id: 8, name: 'Mongodb', Icon: MongodbIcon }
 ]
 
 export const projectItem = [

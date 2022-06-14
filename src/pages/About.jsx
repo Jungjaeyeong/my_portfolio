@@ -20,7 +20,7 @@ const About = () => {
 				<h2 className="skill__title">Skills</h2>
 				<div className="skill__box">
 					{aboutSkills.map(skills => (
-						<div key={skills.name} className="skill__box-item">
+						<div key={skills.id} className="skill__box-item">
 							<skills.Icon className="skill__box-img" />
 							<span>{skills.name}</span>
 						</div>
