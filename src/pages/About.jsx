@@ -19,10 +19,10 @@ const About = () => {
 			<div className="skill">
 				<h2 className="skill__title">Skills</h2>
 				<div className="skill__box">
-					{aboutSkills.map(({ name, Icon }) => (
-						<div key={name} className="skill__box-item">
-							<Icon className="skill__box-img" />
-							<span>{name}</span>
+					{aboutSkills.map(skills => (
+						<div key={skills.name} className="skill__box-item">
+							<skills.Icon className="skill__box-img" />
+							<span>{skills.name}</span>
 						</div>
 					))}
 				</div>
