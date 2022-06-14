@@ -21,7 +21,7 @@ const About = () => {
 				<div className="skill__box">
 					{aboutSkills.map(skills => (
 						<div key={skills.id} className="skill__box-item">
-							<skills.Icon className="skill__box-img" />
+							<img src={skills.icon} className="skill__box-img" />
 							<span>{skills.name}</span>
 						</div>
 					))}

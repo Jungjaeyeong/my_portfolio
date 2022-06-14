@@ -1,11 +1,11 @@
-import { ReactComponent as HtmlIcon } from './assets/svg/html.svg'
-import { ReactComponent as JavascriptIcon } from './assets/svg/JavaScript.svg'
-import { ReactComponent as MongodbIcon } from './assets/svg/mongodb.svg'
-import { ReactComponent as MysqlIcon } from './assets/svg/mysql.svg'
-import { ReactComponent as NextjsIcon } from './assets/svg/nextjs.svg'
-import { ReactComponent as NodejsIcon } from './assets/svg/nodejs.svg'
-import { ReactComponent as ReactIcon } from './assets/svg/react.svg'
-import { ReactComponent as TypescriptIcon } from './assets/svg/typescript.svg'
+// import { ReactComponent as HtmlIcon } from './assets/svg/html.svg'
+// import { ReactComponent as JavascriptIcon } from './assets/svg/JavaScript.svg'
+// import { ReactComponent as MongodbIcon } from './assets/svg/mongodb.svg'
+// import { ReactComponent as MysqlIcon } from './assets/svg/mysql.svg'
+// import { ReactComponent as NextjsIcon } from './assets/svg/nextjs.svg'
+// import { ReactComponent as NodejsIcon } from './assets/svg/nodejs.svg'
+// import { ReactComponent as ReactIcon } from './assets/svg/react.svg'
+// import { ReactComponent as TypescriptIcon } from './assets/svg/typescript.svg'
 
 export const navMenus = [
 	{ id: 1, name: 'About Me', to: '/' },
@@ -13,14 +13,14 @@ export const navMenus = [
 ]
 
 export const aboutSkills = [
-	{ id: 1, name: 'HTML', Icon: HtmlIcon },
-	{ id: 2, name: 'Javascript', Icon: JavascriptIcon },
-	{ id: 3, name: 'Typescript', Icon: TypescriptIcon },
-	{ id: 4, name: 'React', Icon: ReactIcon },
-	{ id: 5, name: 'Nextjs', Icon: NextjsIcon },
-	{ id: 6, name: 'Nodejs', Icon: NodejsIcon },
-	{ id: 7, name: 'Mysql', Icon: MysqlIcon },
-	{ id: 8, name: 'Mongodb', Icon: MongodbIcon }
+	{ id: 1, name: 'HTML', icon: 'images/html.png' },
+	{ id: 2, name: 'Javascript', icon: 'images/javascript.png' },
+	{ id: 3, name: 'Typescript', icon: 'images/typescript.png' },
+	{ id: 4, name: 'React', icon: 'images/react.png' },
+	{ id: 5, name: 'Nextjs', icon: 'images/nextjs.png' },
+	{ id: 6, name: 'Nodejs', icon: 'images/nodejs.png' },
+	{ id: 7, name: 'Mysql', icon: 'images/mysql.png' },
+	{ id: 8, name: 'Mongodb', icon: 'images/mongodb.png' }
 ]
 
 export const projectItem = [
