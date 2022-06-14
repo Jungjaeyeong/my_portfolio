@@ -30,13 +30,13 @@ const AppLayout = ({ children }) => {
 						<h2>정재영</h2>
 					</AppProject>
 					<AppMenus>
-						{navMenus.map(({ name, to }) => (
+						{navMenus.map(menu => (
 							<div
-								key={name}
-								className={`menu ${pathname === to ? 'active' : ''}`}
-								onClick={onMovePage(to)}
+								key={menu.name}
+								className={`menu ${pathname === menu.to ? 'active' : ''}`}
+								onClick={onMovePage(menu.to)}
 							>
-								{name}
+								{menu.name}
 							</div>
 						))}
 					</AppMenus>
