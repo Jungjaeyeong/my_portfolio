@@ -19,7 +19,7 @@ const Project = () => {
 	// 	projectItem.findIndex(item => item.id === projectId)
 
 	return (
-		<></>
+		<span>프로젝트</span>
 		// <ProjectContainer>
 		// 	<Grid>
 		// 		{projectItem.map(item => (

@@ -4,7 +4,7 @@ import { AboutContainer } from './About.styled'
 const About = () => {
 	return (
 		<AboutContainer>
-			<div className="intro">
+			{/* <div className="intro">
 				<h2 className="intro__title">
 					안녕하세요 프론트앤드 개발자 정재영입니다.
 				</h2>
@@ -26,7 +26,7 @@ const About = () => {
 						</div>
 					))}
 				</div>
-			</div>
+			</div> */}
 		</AboutContainer>
 	)
 }
