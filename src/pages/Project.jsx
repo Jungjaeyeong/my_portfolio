@@ -1,24 +1,25 @@
-import { useState } from 'react'
-import { motion, AnimatePresence } from 'framer-motion'
+// import { useState } from 'react'
+// import { motion, AnimatePresence } from 'framer-motion'
 
-import { projectItem } from '../constant'
-import {
-	ActiveItem,
-	Item,
-	Grid,
-	Overlay,
-	ProjectContainer
-} from './Project.styled'
+// import { projectItem } from '../constant'
+// import {
+// 	ActiveItem,
+// 	Item,
+// 	Grid,
+// 	Overlay,
+// 	ProjectContainer
+// } from './Project.styled'
 
 const Project = () => {
-	const [projectId, setProjectId] = useState(null)
+	// const [projectId, setProjectId] = useState(null)
 
-	const onChangeProjectId = id => () => setProjectId(id)
+	// const onChangeProjectId = id => () => setProjectId(id)
 
-	const projectItemCurrentIndex = () =>
-		projectItem.findIndex(item => item.id === projectId)
+	// const projectItemCurrentIndex = () =>
+	// 	projectItem.findIndex(item => item.id === projectId)
 
 	return (
+		<></>
 		// <ProjectContainer>
 		// 	<Grid>
 		// 		{projectItem.map(item => (
