@@ -9,18 +9,25 @@
 
 export const navMenus = [
 	{ id: 1, name: 'About Me', to: '/' },
-	{ id: 2, name: 'Projects', to: '/project' }
+	{ id: 2, name: 'Skills', to: '/skill' },
+	{ id: 3, name: 'Projects', to: '/project' }
 ]
 
-export const aboutSkills = [
+export const frontSkills = [
 	{ id: 1, name: 'HTML', icon: 'images/html.png' },
-	{ id: 2, name: 'Javascript', icon: 'images/javascript.png' },
-	{ id: 3, name: 'Typescript', icon: 'images/typescript.png' },
-	{ id: 4, name: 'React', icon: 'images/react.png' },
-	{ id: 5, name: 'Nextjs', icon: 'images/nextjs.png' },
-	{ id: 6, name: 'Nodejs', icon: 'images/nodejs.png' },
-	{ id: 7, name: 'Mysql', icon: 'images/mysql.png' },
-	{ id: 8, name: 'Mongodb', icon: 'images/mongodb.png' }
+	{ id: 2, name: 'CSS', icon: 'images/css.png' },
+	{ id: 3, name: 'Javascript', icon: 'images/javascript.png' },
+	{ id: 4, name: 'Typescript', icon: 'images/typescript.png' },
+	{ id: 5, name: 'React', icon: 'images/react.png' },
+	{ id: 6, name: 'Redux', icon: 'images/redux.png' },
+	{ id: 7, name: 'Nextjs', icon: 'images/nextjs.png' }
+]
+
+export const backSkills = [
+	{ id: 1, name: 'Nodejs', icon: 'images/nodejs.png' },
+	{ id: 2, name: 'Express', icon: 'images/express.png' },
+	{ id: 3, name: 'Mongodb', icon: 'images/mongodb.png' },
+	{ id: 4, name: 'Mysql', icon: 'images/mysql.png' }
 ]
 
 export const projectItem = [
